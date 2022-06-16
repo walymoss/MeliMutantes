@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeliMutantes", "MeliMutantes\MeliMutantes.csproj", "{757C06ED-73D1-439F-8DA8-1C263C2E5DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMutantes", "TestMutantes\TestMutantes.csproj", "{7CD7C5A2-A5B0-4530-A83E-06CFDFD17605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{757C06ED-73D1-439F-8DA8-1C263C2E5DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757C06ED-73D1-439F-8DA8-1C263C2E5DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757C06ED-73D1-439F-8DA8-1C263C2E5DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757C06ED-73D1-439F-8DA8-1C263C2E5DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD7C5A2-A5B0-4530-A83E-06CFDFD17605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD7C5A2-A5B0-4530-A83E-06CFDFD17605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD7C5A2-A5B0-4530-A83E-06CFDFD17605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD7C5A2-A5B0-4530-A83E-06CFDFD17605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7798CA64-A5AA-42A8-A96E-C0217A37C7AA}
+	EndGlobalSection
+EndGlobal

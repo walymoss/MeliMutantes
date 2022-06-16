@@ -5,8 +5,10 @@ MeliMutantes es un servicio web implementado como Web API por medio de .Net Core
 
 # Operaciones
 
- 1. **Mutant**: Operación que sirve para validar si una cadena de ADN (matriz cuadrada) corresponde a un mutante (respuesta 200 - OK) o a un humano (respuesta 403 - Forbidden). Si se ingresan datos erróneos, por ejemplo una matriz no cuadrada, el servicio retornará error 400 (Bad Request). URL de consumo: https://apimanagementservicewaly.azure-api.net/mutant
- 2. **Stats**: Operación que cuenta cantidad de mutantes, cantidad de humanos y un ratio o promedio entre ambos valores. URL de consumo: https://apimanagementservicewaly.azure-api.net/stats
+ 1. **Mutant**: Operación POST que sirve para validar si una cadena de ADN (matriz cuadrada) corresponde a un mutante (respuesta 200 - OK) o a un humano (respuesta 403 - Forbidden). Si se ingresan datos erróneos, por ejemplo una matriz no cuadrada, el servicio retornará error 400 (Bad Request). URL de consumo: https://apimanagementservicewaly.azure-api.net/mutant. 
+ 2. **Stats**: Operación GET que cuenta cantidad de mutantes, cantidad de humanos y un ratio o promedio entre ambos valores. URL de consumo: https://apimanagementservicewaly.azure-api.net/stats
+
+**Nota:** Para el consumo de ambos servicios se debe incluir los encabezados del API Gateway Ocp-Apim-Subscription-Key: xxxxxxxxxxxx y Ocp-Apim-Trace: true. El valor de la clave Subscription-Key se compartirá por correo electrónico.
 
 # Código
 

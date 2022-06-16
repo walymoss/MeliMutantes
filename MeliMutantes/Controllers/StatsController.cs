@@ -10,7 +10,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System.Data;
 
-namespace MeliMagneto.Controllers
+namespace MeliMutantes.Controllers
 {
     [Route("[controller]")]
     [ApiController]

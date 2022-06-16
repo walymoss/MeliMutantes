@@ -1,5 +1,5 @@
 ﻿using System;
-namespace MeliMagneto
+namespace MeliMutantes
 {
     public class Sequence
     {

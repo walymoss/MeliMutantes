@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace MeliMagneto
+namespace MeliMutantes
 {
     public class Response
     {

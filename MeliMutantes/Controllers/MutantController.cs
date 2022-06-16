@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Net;
 using Microsoft.Extensions.Configuration;
 
-namespace MeliMagneto.Controllers
+namespace MeliMutantes.Controllers
 {
     [Route("[controller]")]
     [ApiController]

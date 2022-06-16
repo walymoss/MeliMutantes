@@ -1,4 +1,4 @@
-﻿namespace MeliMagneto
+﻿namespace MeliMutantes
 {
     public class Stats
     {
